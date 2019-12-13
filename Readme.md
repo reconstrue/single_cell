@@ -10,6 +10,7 @@ end-to-end GPU pipelines. In such a pipeline, the data would be downloaded and p
 on the GPU wherein all analysis computation would happen.
 
 The types of GPU powered compenents being assembled include:
+- Data parsers (e.g. CSV)
 - PCA on GPUs
 - GPU, linear time implementation of tSNE
 - Rapids UMAP
@@ -17,8 +18,16 @@ The types of GPU powered compenents being assembled include:
 
 ## Presentation
 
+### Seattle Cell Science Symposium 2019
+
+The first public presentation was at [Seattle Cell Science Symposium 2019](https://alleninstitute.org/media/filer_public/19/80/19801df8-8001-45ea-bcf9-a731281d98a3/2019_cellsciencesymp_flyer.pdf)
+
+#### Lightening talk slide
+
 <img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/seattle_cell_lightening_slide.png" />
 
+
+#### Poster
 <img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/2019_12_seattle_cell_poster.png" />
 
 ## Related notebooks in other repos
