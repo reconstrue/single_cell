@@ -4,6 +4,17 @@ The goal of this project is to optimize [Google
 Colab](https://colab.research.google.com/) for the purpose of
 performing single cell analysis.
 
+Initially the project is integrating existing popular tools in both Python and R.
+The longer term goal is to build out a set of components which can be assembled into
+end-to-end GPU pipelines. In such a pipeline, the data would be downloaded and parked
+on the GPU wherein all analysis computation would happen.
+
+The types of GPU powered compenents being assembled include:
+- PCA on GPUs
+- GPU, linear time implementation of tSNE
+- Rapids UMAP
+- cuDatashader: Datashader implemented on GPU
+
 ## Presentation
 
 <img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/seattle_cell_lightening_slide.png" />
