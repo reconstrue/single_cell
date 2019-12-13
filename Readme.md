@@ -24,11 +24,11 @@ The first public presentation was at [Seattle Cell Science Symposium 2019](https
 
 #### Lightening talk slide
 
-<img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/seattle_cell_lightening_slide.png" />
+<img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/seattle_cell_lightening_slide.png" style="border: 1px solid black"/>
 
 
 #### Poster
-<img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/2019_12_seattle_cell_poster.png" />
+<img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/2019_12_seattle_cell_poster.png" style="border: 1px solid black"/>
 
 ## Related notebooks in other repos
 
