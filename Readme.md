@@ -28,7 +28,7 @@ The first public presentation was at [Seattle Cell Science Symposium 2019](https
 
 
 #### Poster
-<img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/2019_12_seattle_cell_poster.png" border="1" />
+<img src="http://reconstrue.com/projects/single_cell_on_colab/presentations/2019_12_seattle_cell_poster.png" border="1" /> 
 
 ## Related notebooks in other repos
 
