@@ -1,5 +1,8 @@
 # Single Cell on Colab
 
+![Allen Institute's Cell Diversity pre-built tSNE](http://reconstrue.com/projects/single_cell_on_colab/demo/aibs_cell_diversity_pre_tsned_by_datashader.png)
+
+
 The goal of this project is to optimize [Google
 Colab](https://colab.research.google.com/) for the purpose of
 performing single cell analysis.
