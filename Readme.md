@@ -14,7 +14,7 @@ such a pipeline, the data would be downloaded and parked on the GPU
 wherein all analysis computation would happen. Apache Arrow enables such architectures, as
 illustrated in the following diagram from Nvidia:
 
-![](https://github.com/rapidsai/cudf/raw/branch-0.12/img/rapids_arrow.png)
+<img src="https://github.com/rapidsai/cudf/raw/branch-0.12/img/rapids_arrow.png" width="600px" />
 
 For the context of single cell analysis, the types of GPU powered
 compenents being assembled include:
