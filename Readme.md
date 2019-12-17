@@ -7,13 +7,19 @@ The goal of this project is to optimize [Google
 Colab](https://colab.research.google.com/) for the purpose of
 performing single cell analysis.
 
-Initially the project is integrating existing popular tools in both Python and R.
-The longer term goal is to build out a set of components which can be assembled into
-end-to-end GPU pipelines. In such a pipeline, the data would be downloaded and parked
-on the GPU wherein all analysis computation would happen.
+Initially the project is integrating existing popular tools in both
+Python and R.  The longer term goal is to build out a set of
+components which can be assembled into end-to-end GPU pipelines. In
+such a pipeline, the data would be downloaded and parked on the GPU
+wherein all analysis computation would happen. Apache Arrow enables such architectures, as
+illustrated in the following diagram from Nvidia:
 
-The types of GPU powered compenents being assembled include:
-- Data parsers (e.g. [nvParse](https://github.com/antonmks/nvParse) for CSV)
+![](https://github.com/rapidsai/cudf/raw/branch-0.12/img/rapids_arrow.png)
+
+For the context of single cell analysis, the types of GPU powered
+compenents being assembled include:
+
+- Data parsers (e.g. [nvParse](https://github.com/antonmks/nvParse) for CSV, sparse coordinate matrices, etc.)
 - [Multi-GPU PCA](https://github.com/rapidsai/cuml/issues/68)
 - [GPGPU Linear Complexity t-SNE Optimization](https://biovault.github.io/nptsne/)
 - [UMAP on RAPIDS (15x Speedup)vv](https://medium.com/the-artificial-impostor/umap-on-rapids-15x-speedup-f4eabfbdd978)
