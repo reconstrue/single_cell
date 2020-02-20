@@ -20,8 +20,8 @@ notebooks are tested to run on vanila JupyterLab.
 
 [monocle3_on_colab_in_r.ipynb](./monocle3_on_colab_in_r.ipynb)
 
-The first notebook written was `monocle3_on_colab_in_r.ipynb` which, as the 
-name implies, is an R Jupyter notebook as can been seen by examining the raw 
+The first notebook written was `monocle3_on_colab_in_r.ipynb` which, as the
+name implies, is an R Jupyter notebook as can been seen by examining the raw
 source of the `.ipynb` file:
 ```json
 {
@@ -44,7 +44,7 @@ source of the `.ipynb` file:
   }
 ```
 
-That experiment went well enough that folks were able to perform analyses 
+That experiment went well enough that folks were able to perform analyses
 dispite the current UI limitations of R on Colab.
 
 ## Python Jupyter Notebook
@@ -58,6 +58,3 @@ notebook, `monocle3` is treated as a non-UI funtion, "Here's some
 data, now you give me some data back." The results are then in
 Python-land and can be graphically presented to the use via Python
 libraries such at Altair and Plotly.
-
-
-
