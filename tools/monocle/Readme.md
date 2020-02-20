@@ -18,6 +18,8 @@ notebooks are tested to run on vanila JupyterLab.
 
 ## R Jupyter Notebook
 
+[monocle3_on_colab_in_r.ipynb](./monocle3_on_colab_in_r.ipynb)
+
 The first notebook written was `monocle3_on_colab_in_r.ipynb` which, as the 
 name implies, is an R Jupyter notebook as can been seen by examining the raw 
 source of the `.ipynb` file:
@@ -39,13 +41,15 @@ source of the `.ipynb` file:
       "language": "R",
       "name": "ir"
     }
-  }. . .
+  }
 ```
 
 That experiment went well enough that folks were able to perform analyses 
 dispite the current UI limitations of R on Colab.
 
 ## Python Jupyter Notebook
+
+[monocle3_on_colab_in_python.ipynb](./monocle3_on_colab_in_python.ipynb)
 
 After banging head against the current limitations of R UI on Colab,
 the second notebook, `monocle3_on_colab_in_python.ipynb`, was started
