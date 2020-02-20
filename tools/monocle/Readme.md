@@ -1,5 +1,7 @@
 # Monocle 3
 
+[![](https://reconstrue.github.io/single_cell_on_colab/monocle_cover_image.png)](https://cole-trapnell-lab.github.io/monocle3/)
+
 This directory contains Jupyter notebooks that use
 [Monocle 3](https://cole-trapnell-lab.github.io/monocle3/) is "an analysis
 toolkit for single-cell RNA-seq." It is
@@ -37,7 +39,7 @@ source of the `.ipynb` file:
       "language": "R",
       "name": "ir"
     }
-  }...
+  }. . .
 ```
 
 That experiment went well enough that folks were able to perform analyses 

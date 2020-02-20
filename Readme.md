@@ -27,11 +27,13 @@ compenents being assembled include:
 
 ## Related notebooks in other repos
 
+There are similar notebooks in separate repos:
+
 - [allensdk_on_colab.ipynb](https://github.com/reconstrue/neuro_on_colab/blob/master/platform/allensdk_on_colab.ipynb): install and debug AllenSDK on Colab
 - [colab_vm_config.ipynb](https://github.com/reconstrue/neuro_on_colab/blob/master/platform/colab_vm_config.ipynb): stats on the VM 
 - [git_console.ipynb](https://github.com/reconstrue/neuro_on_colab/blob/master/platform/git_console.ipynb): manually git on Colab
-- [python_using_r.ipynb](https://github.com/reconstrue/neuro_on_colab/blob/master/platform/python_using_r.ipynb)
-
+- [python_using_r.ipynb](https://github.com/reconstrue/neuro_on_colab/blob/master/platform/python_using_r.ipynb): Python rpy2 to R
+- [sleepwalk_on_colab.ipynb](https://github.com/reconstrue/illiberally_licensed_code/blob/master/sleepwalk_on_colab_test_drive.ipynb): tSNE & UMAP JS viz
 
 ## Presentation
 
